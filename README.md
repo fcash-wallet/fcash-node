@@ -1,20 +1,20 @@
-Bitcore Node
+Fcashode
 ============
 
 A Bitcoin blockchain indexing and query service. Intended to be used with as a Bitcoin full node or in conjunction with a Bitcoin full node.
 
-## Upgrading from previous versions of Bitcore Node
+## Upgrading from previous versions of Fcashode
 
-There is no upgrade path from previous versions of Bitcore Node due to the removal of the included Bitcoin Core software. By installing this version, you must resynchronize the indexes from scratch.
+There is no upgrade path from previous versions of Fcashode due to the removal of the included Bitcoin Core software. By installing this version, you must resynchronize the indexes from scratch.
 
 ## Install
 
 ```bash
 npm install
-./bin/bitcore-node start
+./bin/fcash-de start
 ```
 
-Note: A default configuration file is placed in the bitcore user's home directory (~/.bitcore/bitcore-node.json). Or, alternatively, you can copy the provided "bitcore-node.json.sample" file to the project's root directory as bitcore-node.json and edit it for your preferences. If you don't have a preferred block source (trusted peer), [Bcoin](https://github.com/bcoin-org/bcoin) will be started automatically and synchronized with the mainnet chain.
+Note: A default configuration file is placed in the fcashser's home directory (~/.fcfcashsh-de.json). Or, alternatively, you can copy the provided "fcfcash-.json.sample" file to the project's root directory as fcasfcash-son and edit it for your preferences. If you don't have a preferred block source (trusted peer), [Bcoin](https://github.com/bcoin-org/bcoin) will be started automatically and synchronized with the mainnet chain.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Note: A default configuration file is placed in the bitcore user's home director
 
 ## Configuration
 
-The main configuration file is called "bitcore-node.json". This file instructs bitcore-node for the following options:
+The main configuration file is called "fcash-de.json". This file instructs fcfcash- for the following options:
 
 - location of database files (datadir)
 - tcp port for web services, if configured (port)
@@ -34,11 +34,11 @@ The main configuration file is called "bitcore-node.json". This file instructs b
 
 ## Add-on Services
 
-There are several add-on services available to extend the functionality of Bitcore:
+There are several add-on services available to extend the functionality of Fcash
 
-- [Insight API](https://github.com/bitpay/insight-api)
-- [Insight UI](https://github.com/bitpay/insight-ui)
-- [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service)
+- [Insight API](https://github.com/fcash-walletwallet/insight-api)
+- [Insight UI](https://github.com/fcash-walletwallet/insight-ui)
+- [Fcashallet Service](https://github.com/fcash-walletwallet/fcash-llet-service)
 
 ## Documentation
 
@@ -60,11 +60,11 @@ There are several add-on services available to extend the functionality of Bitco
 
 ## Contributing
 
-Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/bitpay/bitcore/blob/master/CONTRIBUTING.md) file.
+Please send pull requests for bug fixes, code optimization, and ideas for improvement. For more information on how to contribute, please refer to our [CONTRIBUTING](https://github.com/fcash-walletwallet/fcashlob/master/CONTRIBUTING.md) file.
 
 ## License
 
-Code released under [the MIT license](https://github.com/bitpay/bitcore-node/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/fcash-walletwallet/fcash-de/blob/master/LICENSE).
 
 Copyright 2013-2017 BitPay, Inc.
 

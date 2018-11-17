@@ -77,7 +77,7 @@ describe('DB', function() {
 
     it('should set the data path', function() {
       dbService._setDataPath();
-      dbService.dataPath.should.equal('/tmp/regtest/bitcorenode.db');
+      dbService.dataPath.should.equal('/tmp/regtest/fcashnode.db');
     });
 
   });

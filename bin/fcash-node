@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+var fcash = require('../lib/cli/fcash');
+fcash();

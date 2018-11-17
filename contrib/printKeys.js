@@ -3,8 +3,8 @@
 var levelup = require('levelup');
 var leveldown = require('leveldown');
 var Encoding = require('../lib/services/address/encoding');
-var dbPath = '/Users/chrisk/.bwdb/bitcore-node.db';
-var bitcore = require('bitcore-lib');
+var dbPath = '/Users/chrisk/.bwdb/fcash-node.db';
+var fcash = require('fcash-lib');
 var db = levelup(dbPath, {keyEncoding: 'binary', valueEncoding: 'binary'});
 
 var prefix = new Buffer('0002', 'hex');
@@ -33,7 +33,7 @@ stream.on('data', function(data) {
   for(var i = 0; i < inputValuesLength / 8; i++) {
     inputValues.push(buffer.readDoubleBE(i * 8 + 14));
   }
-  var transaction = new bitcore.Transaction(data.value.slice(inputValues.length * 8 + 14));
+  var transaction = new fcash.Transaction(data.value.slice(inputValues.length * 8 + 14));
   transaction.__height = height;
   transaction.__inputValues = inputValues;
   transaction.__timestamp = timestamp;

@@ -1,6 +1,6 @@
 'use strict';
 
-var bitcore = require('bitcore-lib');
+var fcash = require('fcash-lib');
 var should = require('chai').should();
 var Encoding = require('../../../lib/services/address/encoding');
 
@@ -38,7 +38,7 @@ describe('Address service encoding', function() {
     new Buffer(txid, 'hex'),
     new Buffer('00000005', 'hex')]);
   var txHex = '0100000001cc3ffe0638792c8b39328bb490caaefe2cf418f2ce0144956e0c22515f29724d010000006a473044022030ce9fa68d1a32abf0cd4adecf90fb998375b64fe887c6987278452b068ae74c022036a7d00d1c8af19e298e04f14294c807ebda51a20389ad751b4ff3c032cf8990012103acfcb348abb526526a9f63214639d79183871311c05b2eebc727adfdd016514fffffffff02f6ae7d04000000001976a9144455183e407ee4d3423858c8a3275918aedcd18e88aca99b9b08010000001976a9140beceae2c29bfde08d2b6d80b33067451c5887be88ac00000000';
-  var tx = new bitcore.Transaction(txHex);
+  var tx = new fcash.Transaction(txHex);
   var sats = tx.outputs[0].satoshis;
   var satsBuf = new Buffer(8);
   satsBuf.writeDoubleBE(sats);

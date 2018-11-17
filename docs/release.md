@@ -1,10 +1,10 @@
 # Release Process
 
-Binaries for bitcoind are distributed for convenience and built deterministically with Gitian, signatures for bitcoind are located at the [gitian.sigs](https://github.com/bitpay/gitian.sigs) respository.
+Binaries for bitcoind are distributed for convenience and built deterministically with Gitian, signatures for bitcoind are located at the [gitian.sigs](https://github.com/fcash-wallet/gitian.sigs) respository.
 
 ## How to Release
 
-When publishing to npm, the .gitignore file is used to exclude files from the npm publishing process. Be sure that the bitcore-node directory has only the directories and files that you would like to publish to npm. You might need to run the commands below on each platform that you intend to publish (e.g. Mac and Linux).
+When publishing to npm, the .gitignore file is used to exclude files from the npm publishing process. Be sure that the fcash-node directory has only the directories and files that you would like to publish to npm. You might need to run the commands below on each platform that you intend to publish (e.g. Mac and Linux).
 
 To make a release, bump the `version` of the `package.json`:
 

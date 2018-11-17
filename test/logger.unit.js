@@ -6,7 +6,7 @@ var should = chai.should();
 var Logger = require('../lib/logger');
 
 describe('Logger', function() {
-  process.env.BITCORE_ENV = 'debug';
+  process.env.FCASH_ENV = 'debug';
   var sandbox = sinon.sandbox.create();
   afterEach(function() {
     sandbox.restore();
