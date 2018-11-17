@@ -66,6 +66,6 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 Code released under [the MIT license](https://github.com/fcash-walletwallet/fcash-de/blob/master/LICENSE).
 
-Copyright 2013-2017 BitPay, Inc.
+Copyright 2013-2017 Fcash Inc.
 
 - bitcoin: Copyright (c) 2009-2015 Bitcoin Core Developers (MIT License)

@@ -20,7 +20,7 @@ git push upstream master
 npm publish
 ```
 
-Create a release tag and push it to the BitPay Github repo:
+Create a release tag and push it to the Fcash Github repo:
 
 ```bash
 git tag -s v<version> -m 'v<version>'

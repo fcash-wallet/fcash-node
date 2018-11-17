@@ -20,9 +20,9 @@ Services correspond with a Node.js module as described in 'package.json', for ex
 ```json
 {
   "dependencies": {
-    "fcash-lib": "^0.13.7",
-    "fcash-node": "^0.2.0",
-    "insight-api": "^3.0.0"
+    "fcash-lib": "^8.0.2",
+    "fcash-node": "^8.0.2",
+    "insight-api": "^8.0.2"
   }
 }
 ```
