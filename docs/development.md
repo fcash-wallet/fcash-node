@@ -129,7 +129,7 @@ Edit `fcash-node.json` with something similar to:
 }
 ```
 
-**Note**: To install services [insight-api](https://github.com/fcash-wallet/insight-api) and [insight-ui](https://github.com/fcash-wallet/insight-ui) you'll need to clone the repositories locally.
+**Note**: To install services [insight-api](https://github.com/fcash-wallet/fcash-insight-api) and [insight-ui](https://github.com/fcash-wallet/fcash-insight-ui) you'll need to clone the repositories locally.
 
 Setup symlinks for all of the services and dependencies:
 
@@ -137,8 +137,8 @@ Setup symlinks for all of the services and dependencies:
 cd node_modules
 ln -s ~/fcash-lib
 ln -s ~/fcash-node
-ln -s ~/insight-api
-ln -s ~/insight-ui
+ln -s ~/fcash-insight-api
+ln -s ~/fcash-insight-ui
 ```
 
 Make sure that the `<datadir>/bitcoin.conf` has the necessary settings, for example:

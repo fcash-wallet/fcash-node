@@ -30,4 +30,4 @@ regtest/data/node3/regtest
 fcash-node.json*
 *.bak
 *.orig
-lib/services/insight-api
+lib/services/fcash-insight-api

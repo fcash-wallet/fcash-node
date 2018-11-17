@@ -18,5 +18,5 @@ The fee service is a requirement of the insight-api service (not a fcash-node bu
 ## Usage Example
 
 ```bash
-curl http://localhost:3001/insight-api/estimateFee
+curl http://localhost:3001/fcash-insight-api/estimateFee
 ```

@@ -36,8 +36,8 @@ The main configuration file is called "fcash-de.json". This file instructs fcfca
 
 There are several add-on services available to extend the functionality of Fcash
 
-- [Insight API](https://github.com/fcash-walletwallet/insight-api)
-- [Insight UI](https://github.com/fcash-walletwallet/insight-ui)
+- [Insight API](https://github.com/fcash-walletwallet/fcash-insightnsight-api)
+- [Insight UI](https://github.com/fcash-walletwallet/fcash-insight-ui)
 - [Fcashallet Service](https://github.com/fcash-walletwallet/fcash-llet-service)
 
 ## Documentation
