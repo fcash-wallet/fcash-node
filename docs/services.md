@@ -20,9 +20,9 @@ Services correspond with a Node.js module as described in 'package.json', for ex
 ```json
 {
   "dependencies": {
-    "fcash-lib": "^8.0.3",
-    "fcash-node": "^8.0.3",
-    "insight-api": "^8.0.3"
+    "fcash-lib": "^8.0.4",
+    "fcash-node": "^8.0.4",
+    "insight-api": "^8.0.4"
   }
 }
 ```
@@ -48,8 +48,8 @@ var myNode = new fcash.Node({
       module: Bitcoin,
       config: {
         spawn: {
-          datadir: '/home/<username>/.bitcoin',
-          exec: '/home/<username>/fcash-node/bin/bitcoind'
+          datadir: '/home/<username>/.fcash',
+          exec: '/home/<username>/fcash-node/bin/fcashd'
         }
       }
     },
