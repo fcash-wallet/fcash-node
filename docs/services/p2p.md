@@ -10,7 +10,7 @@ This service also provides the publisher interface on fcash-node bus architectur
 ```json
 "p2p": {
   "peers": [
-  { "ip": { "v4": "127.0.0.1" }, "port": 8333 }
+  { "ip": { "v4": "127.0.0.1" }, "port": 9528 }
   ]
 }
 ```

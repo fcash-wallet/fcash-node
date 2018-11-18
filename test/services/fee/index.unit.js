@@ -13,11 +13,11 @@ describe('#Fee Service', function() {
     sandbox = sinon.sandbox.create();
     feeService = new FeeService({
       rpc: {
-        user: 'bitcoin',
-        pass: 'local321',
-        host: 'localhost',
+        user: 'fcashuser',
+        pass: 'fcashpass',
+        host: '127.0.0.1',
         protocol: 'http',
-        port: 8332
+        port: 9527
       }
     });
   });
